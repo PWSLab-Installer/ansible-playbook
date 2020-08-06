@@ -1,0 +1,12 @@
+- hosts: localhost
+  connection: local
+
+  vars:
+    
+
+  tasks:
+
+    -   name: Ansible
+        debug: 
+            msg:
+              - 'Ansible has been installed successfully.'
